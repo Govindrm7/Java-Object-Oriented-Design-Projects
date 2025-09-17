@@ -2,14 +2,7 @@
 
 **Course:** CSYE7374  
 **Assignment:** Lab 1 — Stock API  
-**Due:** Sep 16, 11:59 PM  
-**Points:** 100  
-**Submission:** Canvas (URL to repo or file upload)  
-**Status:** Group assignment — all work presented in class and submitted to Canvas
 
-> Click the Canvas link for your GitHub repo if provided by the instructor.
-
----
 
 ## 📌 Objective
 
