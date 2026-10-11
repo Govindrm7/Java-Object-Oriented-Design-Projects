@@ -1,0 +1,6 @@
+[submodule "OOD_Expense_App_Client"]
+	path = OOD_Expense_App_Client
+	url = https://github.com/DainishChhaya/OOD_Expense_App_Client
+[submodule "OOD_FINAL_PROJECT"]
+	path = OOD_FINAL_PROJECT
+	url = https://github.com/darshit-sharma-neu/OOD_Expense_App
