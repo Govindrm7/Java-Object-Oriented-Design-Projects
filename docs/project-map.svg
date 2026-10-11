@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Java Object-Oriented Design Projects: project map</title>
+  <defs>
+    <style>
+      .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 1.2px; }
+      .card-title { font-size: 15.5px; font-weight: 700; fill: #0b0b0b; }
+      .folder { font-family: 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace; font-size: 11.5px; fill: #6b6a65; }
+      .line { font-size: 12.5px; fill: #3a3936; }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1199" height="639" rx="16" fill="#fcfcfb" stroke="#e4e3df"/>
+  <text x="32" y="50" font-size="24" font-weight="700" fill="#0b0b0b">Java Object-Oriented Design Projects</text>
+  <text x="32" y="76" font-size="14" fill="#52514e">Nine projects, from core OOP building blocks to Gang of Four design patterns</text>
+
+  <!-- OOP fundamentals band -->
+  <rect x="32" y="100" width="1136" height="230" rx="14" fill="#e8f6f0" stroke="#1baf7a" stroke-width="1.5"/>
+  <text x="52" y="127" class="eyebrow" fill="#0f7a55">OOP FUNDAMENTALS · CSYE 6200 · oop-fundamentals/</text>
+
+  <g>
+    <rect x="52" y="142" width="204" height="170" rx="10" fill="#ffffff" stroke="#1baf7a" stroke-width="1.5"/>
+    <text x="68" y="168" class="card-title">Zoo API</text>
+    <text x="68" y="186" class="folder">zoo/</text>
+    <text x="68" y="214" class="line">concrete, abstract and</text>
+    <text x="68" y="234" class="line">interface APIs</text>
+    <text x="68" y="254" class="line">9 derived animal classes</text>
+    <text x="68" y="274" class="line">works through Object API</text>
+  </g>
+  <g>
+    <rect x="275" y="142" width="204" height="170" rx="10" fill="#ffffff" stroke="#1baf7a" stroke-width="1.5"/>
+    <text x="291" y="168" class="card-title">Shopping Cart</text>
+    <text x="291" y="186" class="folder">shopping/</text>
+    <text x="291" y="214" class="line">Item and Cart classes</text>
+    <text x="291" y="234" class="line">pass by value vs</text>
+    <text x="291" y="254" class="line">pass by reference</text>
+    <text x="291" y="274" class="line">change from a $20 bill</text>
+  </g>
+  <g>
+    <rect x="498" y="142" width="204" height="170" rx="10" fill="#ffffff" stroke="#1baf7a" stroke-width="1.5"/>
+    <text x="514" y="168" class="card-title">School Roster</text>
+    <text x="514" y="186" class="folder">school/</text>
+    <text x="514" y="214" class="line">Person → Student, Parent</text>
+    <text x="514" y="234" class="line">4 Comparator classes</text>
+    <text x="514" y="254" class="line">sort by ID, age, name, GPA</text>
+    <text x="514" y="274" class="line">students loaded from CSV</text>
+  </g>
+  <g>
+    <rect x="721" y="142" width="204" height="170" rx="10" fill="#ffffff" stroke="#1baf7a" stroke-width="1.5"/>
+    <text x="737" y="168" class="card-title">School CSV</text>
+    <text x="737" y="186" class="folder">school-csv/</text>
+    <text x="737" y="214" class="line">static nested Student</text>
+    <text x="737" y="234" class="line">and Teacher classes</text>
+    <text x="737" y="254" class="line">Comparable + sorting</text>
+    <text x="737" y="274" class="line">CSV read and write</text>
+  </g>
+  <g>
+    <rect x="944" y="142" width="204" height="170" rx="10" fill="#ffffff" stroke="#1baf7a" stroke-width="1.5"/>
+    <text x="960" y="168" class="card-title">Item Factory Store</text>
+    <text x="960" y="186" class="folder">factory/</text>
+    <text x="960" y="214" class="line">Factory Method</text>
+    <text x="960" y="234" class="line">lazy + eager Singleton</text>
+    <text x="960" y="254" class="line">generic ItemFactory&lt;T&gt;</text>
+    <text x="960" y="274" class="line">objects built from CSV</text>
+  </g>
+
+  <!-- Team project band -->
+  <rect x="32" y="350" width="304" height="250" rx="14" fill="#fdf0ea" stroke="#eb6834" stroke-width="1.5"/>
+  <text x="52" y="377" class="eyebrow" fill="#b84a1c">TEAM PROJECT · team-project/</text>
+  <g>
+    <rect x="52" y="392" width="264" height="190" rx="10" fill="#ffffff" stroke="#eb6834" stroke-width="1.5"/>
+    <text x="68" y="418" class="card-title">Expense Tracker</text>
+    <text x="68" y="436" class="folder">expense-tracker/</text>
+    <text x="68" y="464" class="line">Splitwise style group expenses</text>
+    <text x="68" y="484" class="line">Spring backend + JS client</text>
+    <text x="68" y="504" class="line">streams, lambdas, generics</text>
+    <text x="68" y="524" class="line">Singleton, inner classes</text>
+    <text x="68" y="544" class="line">exception handling</text>
+    <text x="68" y="568" class="folder">code in teammates' repos</text>
+  </g>
+
+  <!-- Design patterns band -->
+  <rect x="352" y="350" width="816" height="250" rx="14" fill="#f0eefc" stroke="#6250d6" stroke-width="1.5"/>
+  <text x="372" y="377" class="eyebrow" fill="#4a3aa7">DESIGN PATTERNS · CSYE 7374 · FALL 2025 · design-patterns/</text>
+  <g>
+    <rect x="372" y="392" width="248" height="190" rx="10" fill="#ffffff" stroke="#6250d6" stroke-width="1.5"/>
+    <text x="388" y="418" class="card-title">Lab 1 · Stock API</text>
+    <text x="388" y="436" class="folder">lab1-stock-api/</text>
+    <text x="388" y="464" class="line">lazy, synchronized Singleton</text>
+    <text x="388" y="484" class="line">StockMarket</text>
+    <text x="388" y="504" class="line">Tradeable0 / Tradeable1 APIs</text>
+    <text x="388" y="524" class="line">6 Stock subclasses</text>
+    <text x="388" y="544" class="line">bid driven re-pricing</text>
+  </g>
+  <g>
+    <rect x="636" y="392" width="248" height="190" rx="10" fill="#ffffff" stroke="#6250d6" stroke-width="1.5"/>
+    <text x="652" y="418" class="card-title">Lab 2 · Stock Factory</text>
+    <text x="652" y="436" class="folder">lab2-stock-factory/</text>
+    <text x="652" y="464" class="line">Factory Method per stock</text>
+    <text x="652" y="484" class="line">lazy Singleton factories</text>
+    <text x="652" y="504" class="line">eager Singleton factories</text>
+    <text x="652" y="524" class="line">default interface methods</text>
+    <text x="652" y="544" class="line">Singleton StockMarket</text>
+  </g>
+  <g>
+    <rect x="900" y="392" width="248" height="190" rx="10" fill="#ffffff" stroke="#6250d6" stroke-width="1.5"/>
+    <text x="916" y="418" class="card-title">Strategy Demo</text>
+    <text x="916" y="436" class="folder">strategy-demo/</text>
+    <text x="916" y="464" class="line">Strategy pattern</text>
+    <text x="916" y="484" class="line">4 discount strategies</text>
+    <text x="916" y="504" class="line">swapped at runtime</text>
+    <text x="916" y="524" class="line">Open/Closed principle</text>
+    <text x="916" y="544" class="line">fail fast validation</text>
+  </g>
+
+  <text x="1168" y="626" text-anchor="end" font-size="12" fill="#6b6a65">Code projects: Java 11 · Maven · package edu.neu.csye6200 / edu.neu.csye7374</text>
+</svg>
